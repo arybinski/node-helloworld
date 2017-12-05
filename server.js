@@ -7,7 +7,7 @@ app.use(express.static(__dirname + '/public'));
 
 app.get("/sayHello", function (request, response) {
   var user_name = request.query.user_name;
-  response.end("Hello from the other side! " + user_name + "!");
+  response.end("Hello from the other side2! " + user_name + "!");
 });
 
 app.listen(port);
